@@ -68,7 +68,7 @@ check_or_install IntroLab https://github.com/SpiNNakerManchester/IntroLab.git
 check_or_install spalloc https://github.com/SpiNNakerManchester/spalloc.git
 
 case $1 in
-    *7 )g
+    *7 )
         install_seven
         echo "Please insure your locally install PyNN is version 7"
         break;;
